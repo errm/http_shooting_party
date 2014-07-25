@@ -5,7 +5,7 @@ module HttpShootingParty
     attr_accessor :client
 
     def initialize(url)
-      self.client = ::Excon.new(url)
+      self.client = ::Excon.new(url, persistent: true)
     end
 
     def name
