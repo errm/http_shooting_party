@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'http_shooting_party'
+
+implimentation = ARGV[0]
+require "http_shooting_party/#{implimentation}"
+test = HttpShootingParty::Test.new
+test.run
+test.save
