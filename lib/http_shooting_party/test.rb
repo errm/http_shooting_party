@@ -12,6 +12,7 @@ module HttpShootingParty
     end
 
     def run
+      puts "===> Now testing: #{implimentation.name} hold onto your hat"
       1.upto(ITERATIONS) do |n|
         results << Benchmark.bmbm do |x|
           GC.disable
