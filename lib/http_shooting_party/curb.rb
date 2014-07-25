@@ -2,7 +2,7 @@ require 'curb'
 
 module HttpShootingParty
   class Curb
-    attr_accessor :client, :url
+    attr_accessor :client
 
     def initialize(url)
       self.client = Curl::Easy.new
