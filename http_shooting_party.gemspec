@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "excon"
   spec.add_dependency "httpclient"
   spec.add_dependency "typhoeus"
+  spec.add_dependency "patron"
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end

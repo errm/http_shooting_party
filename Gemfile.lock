@@ -5,20 +5,30 @@ PATH
       curb
       excon
       httparty
+      httpclient
       oj
+      patron
+      typhoeus
 
 GEM
   remote: https://rubygems.org/
   specs:
     curb (0.8.6)
-    excon (0.37.0)
+    ethon (0.7.1)
+      ffi (>= 1.3.0)
+    excon (0.38.0)
+    ffi (1.9.3)
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
+    httpclient (2.4.0)
     json (1.8.1)
     multi_xml (0.5.5)
     oj (2.9.9)
+    patron (0.4.18)
     rake (10.3.2)
+    typhoeus (0.6.9)
+      ethon (>= 0.7.1)
 
 PLATFORMS
   ruby
